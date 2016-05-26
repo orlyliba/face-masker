@@ -1,0 +1,9 @@
+function I = addVignet(I,scale)
+dx = abs([1:size(I,2)] - size(I,2)/2);
+dy = abs([1:size(I,1)] - size(I,1)/2);
+[dx, dy] = meshgrid(dx,dy);
+r = sqrt(dx.^2+dy.^2);
+r = r./max(r(:));
+I = double(I);
+I = I.*repmat(cos(r*scale).^4,[1 1 3]);
+I = uint8(I);
