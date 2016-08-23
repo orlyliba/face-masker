@@ -12,3 +12,5 @@ The blending masks are best when done manually with simple programs such as pain
 
 Read the report and look at the poster to learn more about this project.
 
+!(https://cloud.githubusercontent.com/assets/19598320/17883585/3b96676c-68c8-11e6-9ae9-29140fca29ab.png)
+
